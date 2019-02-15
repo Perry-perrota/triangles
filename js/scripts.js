@@ -1,9 +1,9 @@
 function tcheck(a,b,c){
-//var nameValue =document.getElementById("num1");
+
 var a = parseInt(document.getElementById("num1"));
 var b = parseInt(document.getElementById("num2"));
 var c = parseInt(document.getElementById("num3"));
-//alert(nameValue.value);
+
 //check if its a Triangle
 if (a+b>c || b+c>a || a+c>b){
 //check for equilateral Triangle
