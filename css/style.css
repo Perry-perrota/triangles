@@ -5,3 +5,10 @@ div.panel{
   margin-left: 200px;
   margin-top: 200px;
 }
+h1{
+  font-size: 6;
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline;
+}
