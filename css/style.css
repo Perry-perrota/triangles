@@ -1,14 +1,13 @@
 body{
-    background-image: url("../images.jpeg");
+    background-image: url("../image.jpeg");
 
 }
 div.panel{
-  padding-left: 200px;
+  padding-left: 100px;
   padding-right: 100px;
   margin-right: 200px;
   margin-left: 200px;
-  margin-top: 100px;
-  background-color: grey;
+  margin-top: 90px;
   height: 550px;
   border-style: groove;
   background-image: url("../queries.jpg");
@@ -31,12 +30,14 @@ h3{
 form.bground2{
   border-style: ridge;
   align-items: center;
-  background-color: grey;
+  margin-left: 80px;
+  padding:45px;
+  width: 575px;
   border-radius: 10px;
   background-image: url("../images.jpeg");
+  background-repeat: repeat;
+  background-position: laft;
   height: 300px;
-  background-image: stretch;
-
 
 }
 
