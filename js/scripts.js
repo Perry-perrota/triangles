@@ -28,6 +28,6 @@ if(dimensions[0] + dimensions[1] > dimensions[2] && dimensions[1] + dimensions[2
   //output when the values given dont form a triangle
 else {
     alert("not able to form a triangle.Try again with other values");
-    return false
+    return false;
 }
 }
