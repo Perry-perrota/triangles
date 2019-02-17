@@ -30,32 +30,40 @@ form.bground2{
   align-items: center;
   background-color: grey;
   border-radius: 10px;
+  background-image: url("../images.jpeg");
+  background-image:image(80px,80px);
+  height: 300px;
+
 
 }
 
 #num1{
   border-radius: 20px;
   margin: 20px;
+  padding: 5px;
 
 }
 #num2{
   border-radius: 20px;
   margin: 20px;
+  padding: 5px;
 }
 #num3{
   border-radius: 20px;
   margin: 20px;
+  padding: 5px;
 }
 #check1{
   margin-left: 30px;
   margin-right: 30px;
   background-color: green;
-  color: green;
-  border-radius: 10px;
+    border-radius: 10px;
+  margin-bottom: 10px;
 
 }
 #check2{
-color: red;
+
 background-color: red;
 border-radius: 10px;
+margin-bottom: 10px;
 }
