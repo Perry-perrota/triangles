@@ -3,7 +3,12 @@ div.panel{
   padding-right: 100px;
   margin-right: 200px;
   margin-left: 200px;
-  margin-top: 200px;
+  margin-top: 100px;
+  background-color: grey;
+  height: 500px;
+  border-style: groove;
+  background-image: url("../perrr.jpg");
+  background-image: image(200px,300px);
 }
 h1{
   font-size: 6;
@@ -11,4 +16,25 @@ h1{
   font-family: cursive;
   text-align: center;
   text-decoration: underline;
+  margin-bottom: 100px;
+}
+h3{
+  font-family: sans-serif;
+}
+
+form.bground2{
+  border-style: ridge;
+  align-items: center;
+}
+#num1{
+  border-radius: 20px;
+  margin: 20px;
+}
+#num2{
+  border-radius: 20px;
+  margin: 20px;
+}
+#num3{
+  border-radius: 20px;
+  margin: 20px;
 }
