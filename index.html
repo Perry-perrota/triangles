@@ -1,20 +1,22 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
   <head>
     <title>Triangle checker</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-
   </head>
+  <div class="panel"
   <body>
-    <p>Input triangle dimensions below</p>
-    <form>
-      Side 1:<input id="num1" type="number" name="x" required/>
-      Side 2:<input id="num2" type="number" name="y"required/>
-      Side 3:<input id="num3" type="number" name="z" required/>
-             <input type="submit" name="submit" value="CHECK" onclick="tcheck()"/>
-             <input type = "reset" name = "reset"  value = "RESET" />
-
-
+    <h1>Triangle Checker</h1>
+    <h3>Input triangle dimensions below</h3>
+    <div class="display">
+    <form class="bground2">
+      <input id="num1" type="number" placeholder="Dimension 1" required/><br>
+      <input id="num2" type="number" placeholder="Dimension 2" required/><br>
+      <input id="num3" type="number" placeholder="Dimension 3" required/><br>
+      <input id="check1" type="submit" value="SUBMIT" onclick="fcheck()"/>
+      <input id="check2" type = "reset" value = "RESET" />
+    </div>
     </form>
-    <script type="text/javascript" src="js/scripts.js"></script>
+
   </body>
+</div>
 </html>
