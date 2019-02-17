@@ -14,6 +14,7 @@ if(dimensions[0] + dimensions[1] > dimensions[2] && dimensions[1] + dimensions[2
   else if (dimensions[0]==dimensions[1] && dimensions[1]!==dimensions[2]) {
     alert("This is an isosceles triangle")
   }
+  //check for a scalene triangle 
   else {
     alert("This is a scalene triangle")
   }
