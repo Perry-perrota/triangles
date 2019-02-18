@@ -9,7 +9,7 @@ This is a webpage that allows one to verify the following
 * An internet connection
 * Chrome web browser
 * Scripts from folder JS require to be loaded
-** Known Bugs
+**Known Bugs**
 * Not tested on smaller screens
 * Not tested on resized windows
 

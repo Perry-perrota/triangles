@@ -9,16 +9,18 @@
     <h1>Triangle Checker</h1>
     <div class="panel">
     <h3>Input triangle dimensions below</h3>
-    <div class="display"> 
+    <div class="display">
     <form class="bground2">
       <input id="num1" type="text" placeholder="Dimension 1" value="" required/><br>
       <input id="num2" type="text" placeholder="Dimension 2" value="" required/><br>
       <input id="num3" type="text" placeholder="Dimension 3" value="" required/><br>
-      <input id="check1" type="submit" value="SUBMIT" onclick="tcheck()"/>
+      <input id="check1" type="submit" value="SUBMIT" onclick="tcheck(); return false;"/>
       <input id="check2" type = "reset" value = "RESET" />
+        <p id="output"<p/>
     </div>
     </form>
     </div>
+    <p id="output"<p/>
   </body>
 
 </html>

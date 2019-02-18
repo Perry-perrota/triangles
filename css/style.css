@@ -1,5 +1,5 @@
 body{
-    background-image: url("../image.jpeg");
+    background-image: url("../images/image.jpeg");
 
 }
 div.panel{
@@ -10,7 +10,7 @@ div.panel{
   margin-top: 90px;
   height: 550px;
   border-style: groove;
-  background-image: url("../queries.jpg");
+  background-image: url("../images/queries.jpg");
   border-radius: 20px;
   font-style: italic;
 }
@@ -34,7 +34,7 @@ form.bground2{
   padding:45px;
   width: 575px;
   border-radius: 10px;
-  background-image: url("../images.jpeg");
+  background-image: url("../images/images.jpeg");
   background-repeat: repeat;
   background-position: laft;
   height: 300px;

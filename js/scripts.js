@@ -6,28 +6,27 @@ function tcheck(){
   var c=parseInt(document.getElementById("num3").value);
   var dimensions=[];
   dimensions.push(a,b,c);
+
   //check if the values input can form a triangle
 if(dimensions[0] + dimensions[1] > dimensions[2] && dimensions[1] + dimensions[2] > dimensions[0] && dimensions[0] + dimensions[2] > dimensions[1]===true) {
 //check for equilateral properties
   if (dimensions[0]==dimensions[1] && dimensions[1]==dimensions[2]){
-    alert("This is an equilateral triangle")
-    return true;
+    document.getElementById("output").innerHTML="This is an equilateral triangle";
   }
   //check for isosceles triangle
   else if (dimensions[0]==dimensions[1] && dimensions[1]!==dimensions[2]) {
-    alert("This is an isosceles triangle")
-    return true;
+    document.getElementById("output").innerHTML="This is an isosceles triangle";
   }
   //check for a scalene triangle
   else {
-    alert("This is a scalene triangle")
-    return true;
+    document.getElementById("output").innerHTML="This is a scalene triangle";
+
   }
-  return true;
+
   }
   //output when the values given dont form a triangle
 else {
-    alert("not able to form a triangle.Try again with other values");
-    return false;
+      document.getElementById("output").innerHTML="not able to form a triangle.Try again with other values";
+
 }
 }
